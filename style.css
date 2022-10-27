@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  align-items: center;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+
+#red {
+  width: 20%;
+  height: 30%;
+  border-radius: 2rem;
+  background-color: red;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  position: absolute;
+  margin: 2rem 10rem;
+  outline: none;
+  color: azure;
+  font-size: 4rem;
+}
+
+#yellow {
+  width: 20%;
+  height: 30%;
+  border-radius: 2rem;
+  background-color: rgb(200, 223, 21);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  position: absolute;
+  margin: 2rem 38rem;
+  color: azure;
+  font-size: 4rem;
+}
+
+#green {
+  width: 20%;
+  height: 30%;
+  border-radius: 2rem;
+  background-color: rgb(99, 211, 19);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  position: absolute;
+  margin: 2rem 64rem;
+  color: azure;
+  font-size: 4rem;
+}
+.btn {
+  width: 20rem;
+  height: 5;
+  background-color: blueviolet;
+  color: aliceblue;
+  font-size: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  margin: 29rem 38rem;
+}
+@media only screen and (max-width: 720px) {
+  .block {
+    width: 50%;
+    display: block;
+    align-items: center;
+  }
+  #red {
+    margin-left: 1rem;
+    width: 30%;
+  }
+  #yellow {
+    margin-left: 11rem;
+    width: 30%;
+  }
+  #green {
+    margin-left: 21rem;
+    width: 30%;
+  }
+  .btn {
+    margin-left: 6rem;
+  }
+}
